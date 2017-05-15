@@ -7,11 +7,16 @@ A demo server to send messages through LINE notify
  - Create an cartridge for the latest Node.js and `git clone` this project to your cartridge
  - After the process, OpenShift will do the rest things.
 
+### Setup on your LINE Notify 
+ - Create a new [LINE notify](https://notify-bot.line.me/my/services/new) 
+ - Fill in the required information
+ - Make sure your Callback URL is: https://[your-cartridge].rhcloud.com/add-notify-user
+
 ### Setup on your LINE
  - First, login your LINE on PC/mobile
- - Acceess https://[your-cartridge].rhcloud.com/oauth.html by browser
+ - Acceess `https://[your-cartridge].rhcloud.com/oauth.html` by the browser
  - Click `connect` to create an OAuth2 connection between LINE Notify and your cartridge, then your server is alllow to send notifications. 
- - Test by: `curl -X GET https://[your-cartridge].rhcloud.com/line-notify` 
+ - Send test messages by: `curl -X GET https://[your-cartridge].rhcloud.com/line-notify` 
 
 ### Reference
  - [LINE Notify](https://notify-bot.line.me/en/)
