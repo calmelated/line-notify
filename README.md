@@ -7,7 +7,7 @@ A demo server to send messages through LINE notify
  - Create an cartridge for the latest Node.js and `git clone` this project to your cartridge
  - After the process, OpenShift will do the rest things.
 
-### Setup on your LINE Notify 
+### Setup on LINE Notify 
  - Create a new [LINE notify](https://notify-bot.line.me/my/services/new) 
  - Fill in the required information
  - Make sure your Callback URL is: https://[your-cartridge].rhcloud.com/add-notify-user
