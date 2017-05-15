@@ -11,6 +11,7 @@ A demo server to send messages through LINE notify
  - Create a new [LINE notify](https://notify-bot.line.me/my/services/new) 
  - Fill in the required information
  - Make sure your Callback URL is: https://[your-cartridge].rhcloud.com/add-notify-user
+ - Get your `CHANNEL_TOKEN` from web console and paste it to the file `line-notify.js` 
 
 ### Setup on your LINE
  - First, login your LINE on PC/mobile
