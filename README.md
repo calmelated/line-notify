@@ -18,5 +18,5 @@ A demo server to send messages through LINE notify
  - [LINE Notify API](https://notify-bot.line.me/doc/en/)
 
 ### Demo
- [!demo](https://github.com/calmelated/line-notify/blob/master/line-notify.jpg?raw=true)
+ ![demo](https://github.com/calmelated/line-notify/blob/master/line-notify.jpg?raw=true)
  
